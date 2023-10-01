@@ -6,10 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
-public class Trabajador {
+public class TrabajadorEjercicio4 {
+    private Integer salariomensual;
+    private Integer tiempotrabajo;
 
-    private String sexo;
-    private Integer edad;
+    //este es el modelo del ejercicio 4
 
-    // este modelo es sobre el ejercicio 1
 }
